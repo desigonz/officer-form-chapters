@@ -8,8 +8,10 @@
   "license": "MIT",
   "peerDependencies": {},
   "scripts": {
-    "preinstall": "yarn build",
-    "prepare": "yarn build",
+    "preinstall": "echo 'preinstall'",
+    "install": "echo 'install'",
+    "postinstall": "yarn build && echo 'postinstall'",
+    "prepare": "echo 'prepare'",
     "start": "webpack --watch",
     "build": "webpack",
     "storybook": "start-storybook -p 6006",
