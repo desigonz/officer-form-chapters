@@ -14,7 +14,7 @@
     "build-storybook": "build-storybook -o docs"
   },
   "dependencies": {
-    "@cityofaustin/usfs-components": "https://github.com/cityofaustin/usfs-components",
+    "@cityofaustin/usfs-components": "https://github.com/cityofaustin/usfs-components#sg-usfs-nobuildfolder",
     "@cityofaustin/usfs-schema-blocks": "https://github.com/cityofaustin/usfs-schema-blocks",
     "react": "15",
     "react-dom": "15",
