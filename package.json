@@ -8,6 +8,7 @@
   "license": "MIT",
   "peerDependencies": {},
   "scripts": {
+    "preinstall": "yarn build",
     "prepare": "yarn build",
     "start": "webpack --watch",
     "build": "webpack",
